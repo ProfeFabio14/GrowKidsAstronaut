@@ -59,22 +59,18 @@ p {
     Width: 324px;
     Height: 322px;
     margin: 130px 0 0 -160px;
-    animation: zoom 5s infinite;
+    animation: spin 20s linear infinite;
 }
 
-@keyframes zoom {
-    0% {
-        transform: scale(1);
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
     }
-
-    50% {
-        transform: scale(1.2);
+    to {
+      transform: rotate(360deg);
     }
-
-    100% {
-        transform: scale(1);
-    }
-}
+  }
 
 footer {
     text-align: center;
