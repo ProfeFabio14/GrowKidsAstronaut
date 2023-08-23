@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+}
+
+body {
+    background-color: #DC062CB2;
+}
+
+.header-nav {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    background-color: #3000BAC2;
+}
+
+.enlaces-navegacion {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    text-decoration: none;
+    padding-right: 100px;
+    margin-top: 27px;
+}
+
+
+section {
+    display: inline-block;
+    width: 80vw;
+
+}
+
+h1 {
+
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    margin: 114px 0 0 116px;
+
+}
+
+p {
+
+    width: 60%;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 40px 0 0 195px;
+
+}
+
+.img-astronauta {
+    display: inline-block;
+    position: absolute;
+    Width: 324px;
+    Height: 322px;
+    margin: 130px 0 0 -160px;
+}
+
+footer {
+    text-align: center;
+    background-color: #3000BAC2;
+    margin-top: 135px;
+}
+
+
+@media screen and (max-width:700px) {
+    .header-nav {
+        display: block;
+        display: none;
+        width: auto;
+        height: 10vh;
+        background-color: #3000BAC2;
+    }
+}
